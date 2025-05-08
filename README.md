@@ -7,10 +7,10 @@
 ### Обход в ширину (BFS):
 
 •   **Single-Source Parent:**
-       Реализация на **GraphBLAS** и **Google Pregel (Apache Spark)**
+       Реализация на **GraphBLAS** и **Google Pregel (PySpark)**
        
 •   **Multiple-Source Parent:**
-       Реализация на **GraphBLAS** и **Google Pregel (Apache Spark)**
+       Реализация на **GraphBLAS** и **Google Pregel (PySpark)**
 
 ### Треугольники:
 
