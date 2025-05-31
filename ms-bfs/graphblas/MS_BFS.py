@@ -57,12 +57,6 @@ def main():
     parent = ms_bfs_parent(adj, args.sources)
     dense = parent.to_dense(fill_value=-1)
 
-    for src_idx, (src, row) in enumerate(zip(args.sources, dense)):
-        print(f"Source {src} parents:")
-        for i, p in enumerate(row):
-            if p != -1:
-                print(f"  Node {i}: Parent {p}")
-
 
 if __name__ == '__main__':
     main()

@@ -1,7 +1,6 @@
 import sys
 from pyspark.sql import SparkSession
 from pyspark import StorageLevel
-from graphframes import GraphFrame
 from pyspark.sql import functions as F
 from pyspark.sql.types import StructType, StructField, LongType, IntegerType
 
@@ -41,9 +40,6 @@ class MSBFS:
         Multi-Source BFS: sources — список стартовых вершин.
         Вернёт DataFrame (vertex, src, distance, parent).
         """
-        vertices = edges_df.select("src").union(edges_df.select("dst")).distinct() \
-            .withColumnRenamed("src", "id")
-        g = GraphFrame(vertices, edges_df)
 
         schema = StructType([
             StructField("vertex", LongType(), nullable=False),
@@ -84,7 +80,6 @@ class MSBFS:
             visited = visited.union(new_front).persist(StorageLevel.MEMORY_ONLY)
             frontier = new_front
 
-            frontier = frontier.checkpoint()
             visited = visited.checkpoint()
 
         return visited
