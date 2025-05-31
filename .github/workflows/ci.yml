@@ -17,7 +17,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'  # или ваша версия Python
+          python-version: '3.10'
           
       - name: Install dependencies
         run: |
@@ -25,8 +25,8 @@ jobs:
           
       - name: Run GraphBMS MS_BFS
         working-directory: ./ms-bfs/graphblas
-        run: python MS_BFS.py
+        run: python MS_BFS.py ../../dataset/ms-bfs/test.txt 1 2
         
       - name: Run PySpark MS_BFS
         working-directory: ./ms-bfs/pyspark
-        run: python MS_BFS.py
+        run: python MS_BFS.py ../../dataset/ms-bfs/test.txt 1 2

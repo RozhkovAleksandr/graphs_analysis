@@ -42,10 +42,10 @@ class MSBFS:
         """
 
         schema = StructType([
-            StructField("vertex", LongType(), nullable=False),
-            StructField("src",    LongType(), nullable=False),
+            StructField("vertex", IntegerType(), nullable=False),
+            StructField("src",    IntegerType(), nullable=False),
             StructField("dist",   IntegerType(), nullable=False),
-            StructField("parent", LongType(), nullable=True)
+            StructField("parent", IntegerType(), nullable=True)
         ])
 
         data = [(int(s), int(s), 0, None) for s in sources]
