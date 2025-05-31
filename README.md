@@ -1,6 +1,6 @@
 # Graphs Analysis
 
-Исследование и реализация алгоритмов анализа графов с использованием **GraphBLAS** и **Google Pregel (Apache Spark)**.
+Исследование и реализация алгоритмов анализа графов с использованием **GraphBLAS** и **Google Pregel (Apache Spark, PySpark)**.
 
 ## Выбранные темы:
 
