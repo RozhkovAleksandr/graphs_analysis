@@ -4,36 +4,6 @@
 
 ## Выбранные темы:
 
-### Обход в ширину (BFS):
-
-•   **Single-Source Parent:**
-       Реализация на **GraphBLAS** и **Google Pregel (PySpark)**
-       
-•   **Multiple-Source Parent:**
-       Реализация на **GraphBLAS** и **Google Pregel (PySpark)**
-
-### Треугольники:
-
-•   **Sandia:**
-       Реализация на **GraphBLAS** и **Google Pregel (Apache Spark)**
-       
-•   **Burkhardt:**
-    Реализация на **GraphBLAS** и **Google Pregel (Apache Spark)**
-
-### Остовные деревья:
-
-•   **Алгоритм Борувки:**
-       Реализация на **Google Pregel (Apache Spark)**
-    
-•   **Алгоритм Прима:**
-       Реализация на **Google Pregel (Apache Spark)**
-
-### Кратчайшие пути:
-
-• Реализация на **GraphBLAS** и **Google Pregel (Apache Spark)**
-
-### PageRank:
-
-• Реализация на **GraphBLAS** и **Google Pregel (Apache Spark)**
-
+Рожков Александр (Multiple-Source Parent для GraphBLAS и Google Pregel (PySpark)) 1 и 2 презентация
+Рожков Александр (Single-Source Parent для Google Pregel (PySpark)) 1 презентация
 
