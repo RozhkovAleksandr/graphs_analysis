@@ -9,3 +9,12 @@
 
 •   **Рожков Александр (Single-Source Parent для Google Pregel (PySpark))**
     •   1 презентация
+
+•   **Перевалов Ефим (Sandia для SuiteSparse:GrpahBLAS и SPLA)**
+    •   1 и 2 презентация
+
+•   **Перевалов Ефим (Кратчайшие пути GrpahBLAS и Preegel+)**
+    •   1 презентация
+    
+•   **Перевалов Ефим (Burkhardt для SuiteSparse:GrpahBLAS и SPLA)**
+    •   1 и 2 презентация
