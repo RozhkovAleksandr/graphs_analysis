@@ -1,39 +1,20 @@
-# Graphs Analysis
+# Анализ Графов
 
-Исследование и реализация алгоритмов анализа графов с использованием **GraphBLAS** и **Google Pregel (Apache Spark)**.
+Исследование и реализация алгоритмов анализа графов с использованием GraphBLAS и Google Pregel (Apache Spark, PySpark).
 
 ## Выбранные темы:
 
-### Обход в ширину (BFS):
+•   **Рожков Александр (Multiple-Source Parent для GraphBLAS и Google Pregel (PySpark))**
+    •   1 и 2 презентация
 
-•   **Single-Source Parent:**
-       Реализация на **GraphBLAS** и **Google Pregel (PySpark)**
-       
-•   **Multiple-Source Parent:**
-       Реализация на **GraphBLAS** и **Google Pregel (PySpark)**
+•   **Рожков Александр (Single-Source Parent для Google Pregel (PySpark))**
+    •   1 презентация
 
-### Треугольники:
+•   **Перевалов Ефим (Sandia для SuiteSparse:GrpahBLAS и SPLA)**
+    •   1 и 2 презентация
 
-•   **Sandia:**
-       Реализация на **GraphBLAS** и **Google Pregel (Apache Spark)**
-       
-•   **Burkhardt:**
-    Реализация на **GraphBLAS** и **Google Pregel (Apache Spark)**
-
-### Остовные деревья:
-
-•   **Алгоритм Борувки:**
-       Реализация на **Google Pregel (Apache Spark)**
+•   **Перевалов Ефим (Кратчайшие пути GrpahBLAS и Preegel+)**
+    •   1 презентация
     
-•   **Алгоритм Прима:**
-       Реализация на **Google Pregel (Apache Spark)**
-
-### Кратчайшие пути:
-
-• Реализация на **GraphBLAS** и **Google Pregel (Apache Spark)**
-
-### PageRank:
-
-• Реализация на **GraphBLAS** и **Google Pregel (Apache Spark)**
-
-
+•   **Перевалов Ефим (Burkhardt для SuiteSparse:GrpahBLAS и SPLA)**
+    •   1 и 2 презентация
