@@ -1,3 +1,6 @@
 [submodule "tc"]
 	path = tc
 	url = https://github.com/Urtix/TC.git
+[submodule "sssp/spla_graphblas"]
+	path = sssp/spla_graphblas
+	url = git@github.com:Urtix/SP.git
