@@ -30,3 +30,11 @@ jobs:
       - name: Run PySpark MS_BFS
         working-directory: ./ms-bfs/pyspark
         run: python MS_BFS.py ../../dataset/ms-bfs/test.txt 1 2
+      
+      - name: Run GraphBLAS SSSP
+        working-directory: ./sssp/graphblas
+        run: python SSSP.py ../../dataset/ms-bfs/test.txt 1
+        
+      - name: Run PySpark SSSP
+        working-directory: ./sssp/pyspark
+        run: python SSSP.py ../../dataset/ms-bfs/test.txt 1
